@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kalyan Support Portal</title>
+
+<link rel="icon" type="image/jpeg" href="logo.jpeg">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="header">
+
+<div class="logo-section">
+
+<img src="logo.jpeg" class="logo">
+
+<div class="title">
+<h2>कल्याण शताब्दी वर्ष (Kalyan 2026)</h2>
+<p>Kalyan Dispatch Status Portal</p>
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+
+<!-- MAIN CARD -->
+
+<div class="container">
+
+
+
+<div class="card">
+
+<img src="logo.jpeg" class="card-logo">
+
+<h1>Customer Dispatch Tracking Portal</h1>
+
+<p class="subtitle">
+Use your registered Mobile Number or Customer ID to view your dispatch information.
+</p>
+
+
+<!-- OPTIONS -->
+
+<div class="option-box">
+
+<div class="option active" onclick="selectOption('mobile')">
+📱
+<span>Mobile Number</span>
+</div>
+
+<div class="option" onclick="selectOption('customer')">
+🪪
+<span>Customer ID</span>
+</div>
+
+</div>
+
+
+<!-- INPUT -->
+
+<div class="input-section">
+
+<label id="inputLabel">Registered Mobile Number *</label>
+
+<input
+type="text"
+id="searchInput"
+placeholder="Enter 10-digit mobile number"
+/>
+
+<button onclick="searchCustomer()">
+Verify & Continue →
+</button>
+
+</div>
+
+<div id="result"></div>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2024 Kalyan Centenary. All rights reserved.
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
