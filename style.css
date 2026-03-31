@@ -6,7 +6,8 @@ font-family:Segoe UI;
 }
 
 body{
-background:#f3f4f6;
+background: linear-gradient(135deg, #fff9e6 0%, #fffbf0 50%, #fff9e6 100%);
+min-height: 100vh;
 }
 
 
