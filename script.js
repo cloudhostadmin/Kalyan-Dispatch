@@ -45,7 +45,7 @@ let result = document.getElementById("result");
 result.innerHTML = "Searching...";
 
 
-let url = "https://script.google.com/macros/s/AKfycbwUpjLUbO0FN1rxORNj3ZoTt9c9j023VicElHDKSx-UbXRyvDnsBVJxa2mfxP51Gb34aw/exec?query=" + value + "&type=" + mode;
+let url = "https://script.google.com/macros/s/AKfycbw7b9afq7z9sgj9uoDRrl61KQHNirWJAvNSFh8pwnDCG4-55cjv7MwWlQ5wtnddzyWYZA/exec?query=" + value + "&type=" + mode;
 
 try{
 
